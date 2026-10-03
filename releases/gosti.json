@@ -1,0 +1,181 @@
+{
+  "architecture": "arm64",
+  "asset": "gosti-0.1.1-darwin-aarch64.tar.gz",
+  "payload": {
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "sha256": "7db761f3be35723dcb6a23be1455578f7d6c3843d174cdd4e9f17173ec05508c"
+    },
+    "bin/gosti": {
+      "sha256": "f7de393a6ba67a9d5865c929753fbe9639572c1788861729bfd4d32e61729252"
+    },
+    "bin/vm-harness": {
+      "symlink": "gosti"
+    },
+    "share/vm-harness/guest-recipes/README.md": {
+      "sha256": "8d6c8de84886acd50e434d3c66c6b73e31a088e1d196ce9852a7034b1a2571fe"
+    },
+    "share/vm-harness/guest-recipes/lib/apply-offline-service-payloads.sh": {
+      "sha256": "c9c6c16b94b236c1657f2f77c4c2fc4935be2e9774d60ffac437bd1f6fc19d4b"
+    },
+    "share/vm-harness/guest-recipes/lib/assert-defender-exclusions-sane.ps1": {
+      "sha256": "e5b3fe7ed3474f49e034a66e9d30cc4d8d38a5cd9ea27db229ab358baf1a58e1"
+    },
+    "share/vm-harness/guest-recipes/lib/assert-git-provisioned.ps1": {
+      "sha256": "50ad0feaa4893d5bddece5a98bff4ef1ef756510bf4ec1a36a32ab7654af99ca"
+    },
+    "share/vm-harness/guest-recipes/lib/assert-pwsh-provisioned.ps1": {
+      "sha256": "ff42e34adb3a169d2706410a7c5471078d141d7b8897cf5455e4ce9addb1511f"
+    },
+    "share/vm-harness/guest-recipes/lib/ci-background-off-software.reg": {
+      "sha256": "ebeffecfb69d922303844c5272eae580ac34fe9bb78d5596987079a643a18310"
+    },
+    "share/vm-harness/guest-recipes/lib/ci-background-off-system.reg": {
+      "sha256": "48895d5898c9a0ffc5d5cd2ead824c2f2e5726df8874926869813857109ef884"
+    },
+    "share/vm-harness/guest-recipes/lib/ci-background-off.targets": {
+      "sha256": "96a4ae72b27a7f51b06558aefa134ce084e56b9eaf83cc20dd8a16bd8e17853b"
+    },
+    "share/vm-harness/guest-recipes/lib/ci-background-off.trigger-tasks": {
+      "sha256": "36fcdd34b9b4874e27a1e8120a41a46dc9109e5e6c6a003549febe87640cb8bf"
+    },
+    "share/vm-harness/guest-recipes/lib/defender-off-software.reg": {
+      "sha256": "1e5507c87c9f047f0b625e22ac744b6fdf704d516007e1e795c0303ef0106455"
+    },
+    "share/vm-harness/guest-recipes/lib/defender-off-system.reg": {
+      "sha256": "2392395e2ec80ec97269a6af733e5c0c1dbb17405652aa9921273d511690cf94"
+    },
+    "share/vm-harness/guest-recipes/lib/defender-off.targets": {
+      "sha256": "ea49b4b0f9f63303037fe1f0bfe4c61787e23f896b99b027bff74a6c2165ff2a"
+    },
+    "share/vm-harness/guest-recipes/lib/fetch-portable-git.sh": {
+      "sha256": "1b6a3cafb5e0968e043209537900e9b3d16b13ffe035415b0464521a9c9b5831"
+    },
+    "share/vm-harness/guest-recipes/lib/fetch-powershell.sh": {
+      "sha256": "6d63477968548c166ff864afaca4457cc5651f315bbe761861aa7f1dc3315991"
+    },
+    "share/vm-harness/guest-recipes/lib/fetch-windows-iso.sh": {
+      "sha256": "3228859eac7d900e5041900dd2af3404242fa6ca07c3625f331f75dc89d11d9d"
+    },
+    "share/vm-harness/guest-recipes/lib/harden-defender-offline.sh": {
+      "sha256": "8163490d142318c38935010e0fa93aa5ecfb942b04eb0a1aec3f88d3ad10d620"
+    },
+    "share/vm-harness/guest-recipes/lib/harden-defender.README.md": {
+      "sha256": "b9f8abd40c7330db9f5a612e3d3bff28a5c7d297082362accebc4f3e43b64d99"
+    },
+    "share/vm-harness/guest-recipes/lib/harden-defender.ps1": {
+      "sha256": "54c04161bcca15b041afc20ac4c491b4a581b1f7bafddd956616372169994e95"
+    },
+    "share/vm-harness/guest-recipes/lib/provision-git.ps1": {
+      "sha256": "51bfc58c5b8574d0d37ab15d9359d0c5c594014837dceca41cecef5ed920d2df"
+    },
+    "share/vm-harness/guest-recipes/lib/provision-pwsh.ps1": {
+      "sha256": "2de6d9883536c8246e7b37e157b49c108fa83a56527839085d28b51ca130020b"
+    },
+    "share/vm-harness/guest-recipes/lib/stage-actions-runner.ps1": {
+      "sha256": "3fe578ac984beaf0173c5a42943a0d9ea3a850a048f0a470c375f0f26c9324e1"
+    },
+    "share/vm-harness/guest-recipes/lib/validate-uefi-iso.sh": {
+      "sha256": "9cc0992d14fe763322c9554ace222bed2ab09c2d30c188514a4267473ccaace8"
+    },
+    "share/vm-harness/guest-recipes/linux-nixos-runner/build-nixos-runner-image.sh": {
+      "sha256": "f2dca595115dcc827bda2ad397d4f46fc55656b2d0bc96740eefaeada28b7c96"
+    },
+    "share/vm-harness/guest-recipes/linux-x64-runner/build-runner-image.sh": {
+      "sha256": "8072a6672dc200fce362174dffd09e8e0982dc0dccf98cd4d94a6052450ad79c"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/README.md": {
+      "sha256": "eb092df534ad9108962dc4066a5dc21ba1ef0295849ffdf40be80474055224e6"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/autounattend.xml": {
+      "sha256": "d424bc6c9c54732f0022d51912357c7d09232471ff74a3351e29b40d00c9d8a6"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/build-autounattend-iso.sh": {
+      "sha256": "64beb3d624c4a002be091757237c66cd4fdc86f60e6a66c689fd4753f8d150d8"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/create-utm-bundle.sh": {
+      "sha256": "3f0738694c599574c958efbe86a05235c237c6a6d5a36fecc685ab1bf6614571"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/fetch-iso.sh": {
+      "sha256": "fa0ef2447d660e5e26040f69594fe0fca24c7921accaf9d683165c3831ed55d2"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/fetch-openssh-arm64.sh": {
+      "sha256": "915f316ed96db5fadbc8ad3b60ab9762aec492cce672c8530be6c0e496691602"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/fetch-virtio-netkvm-arm64.sh": {
+      "sha256": "d69e7a49af05008d0fa5996aa01b061ff64e268dd9ceb58c4637df4bc1e43e4c"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/finalize-golden.sh": {
+      "sha256": "8af1a520aa1e1a3899e6889f5c70ebf1411e80c7c2f6f9ed2b89e1833e19f083"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/provision-openssh.ps1": {
+      "sha256": "0f422e6bcc0bf485b4331fe73e5acf6cca93933f528532744e12f6ef80a864ac"
+    },
+    "share/vm-harness/guest-recipes/windows-arm-base/repro-sysprep.xml": {
+      "sha256": "08d5f404eda5b8cc35fc3fd1928ebe0e6d7068dafa851af721e2c47f55cbf714"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/README.md": {
+      "sha256": "f4c2e875d72a34b29a9797981ef82b75c8db07eb541badcd6304e91a040574ac"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/assert-ci-toolchain.ps1": {
+      "sha256": "11ba6108419f913e22054b4e27dea6963d91c3ddf6f035292b4349bd59d8cd94"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/autounattend.xml": {
+      "sha256": "31ddcbf02a990e5b22e3dfa6d82c5192ec9414276819798f8e702c9fcb67d490"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/build-autounattend-iso.sh": {
+      "sha256": "1f4d115c1c47e68e3992adff5578c2a0e18dda7f73491a71b4b838e84d9f2e95"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/build-ci-toolchain-golden.sh": {
+      "sha256": "fcf051c82c2c9ff21d8702faa6138079c5a42f2e168b07eef0596ff46b7cbae3"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/build-golden-hyperv.ps1": {
+      "sha256": "9a8f2f24a250c54862280232c186ddada647b54919eec6bec255a56a0e3fb408"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/build-hyperv-runner-golden.ps1": {
+      "sha256": "67f065c6eea2d4cb9030723851ecebb964bec4deced1ef3040367d6bb8dce5f7"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/build-sysprep-golden.sh": {
+      "sha256": "817989f4142da6b1d3f908f97492a56c7a1c2a7acdb0e2458dbba3cdfd8ccc30"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/ci-toolchain-golden.md": {
+      "sha256": "4e7b8e0878008ca5deba5e3544629db43cf68d33cd930b4f447a757ed44750b3"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/ci-toolchain.pins": {
+      "sha256": "522429c416f406567492102ee3962085aaf3e17e03cb718aafacc58f8ded7169"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/cloudbase-init-golden.md": {
+      "sha256": "a280d8eee4fb5ba217649be40234d2fb3f4d3b66cf94afe3c059b7d5b03aa422"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/cloudbase-init.conf": {
+      "sha256": "d3fdbebf305fd581ae836b17313623346c9d0f37a0b8982ff0b1aca66a065583"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/fetch-iso.sh": {
+      "sha256": "f81649131b42cace90cffc1b9275aeea086faf6d3ea50e479250e68f8a769f37"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/finalize-golden.sh": {
+      "sha256": "995f00b4ef724fbd8d78e6fb63f48a1abdf9f8627d5d6bdcdee723e2134c1a8a"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/make-iso.ps1": {
+      "sha256": "70ef130c8a99fc8a05575b6fc417900cbe542dd974877a8ce2358173fca88f5a"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/provision-ci-toolchain.ps1": {
+      "sha256": "03bb56ba140dd0ce99cf471c1331cd51c124c4de6f98a8bf7d1cc60b2b1c0d7f"
+    },
+    "share/vm-harness/guest-recipes/windows-x64-base/rearm-unattend.xml": {
+      "sha256": "df4316ce8964d2baf36a2cd1529e4496841f57715bcc02696e8922f52405c55a"
+    },
+    "share/vm-harness/guest-scripts/posix.sh": {
+      "sha256": "3af569590aee9d99fb427c3bad40ec9be0eb1840b01387bcafab2f5ef559f7f6"
+    },
+    "share/vm-harness/guest-scripts/windows.ps1": {
+      "sha256": "14b9a116284eab47875447ac78911f9aa87e1f66e8a0efbd652ea182139a0793"
+    }
+  },
+  "repository": "metacraft-labs/gosti",
+  "sha256": "615b186037a5675bc894d3d8c87eed249d99197ae740bb9d6f14b49c9c746920",
+  "url": "https://github.com/metacraft-labs/gosti/releases/download/v0.1.1/gosti-0.1.1-darwin-aarch64.tar.gz",
+  "version": "0.1.1"
+}
