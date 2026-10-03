@@ -1,19 +1,19 @@
 {
   "architecture": "arm64",
-  "asset": "runquota-0.1.0-darwin-aarch64.tar.gz",
+  "asset": "runquota-0.1.1-darwin-aarch64.tar.gz",
   "payload": {
     "LICENSE": {
       "sha256": "8baa3a0ba710393aa0afa2d5831f38ec64cfd7817fa14b4b35a78bf225792205"
     },
     "bin/runquota": {
-      "sha256": "c5981d54d7b7e963b70b0998f47d689191bfeb9cc6f53aac2c72bdb606c80963"
+      "sha256": "ed839fc641987aed720a0c13be436eae2a30e77e492e85199c7a696e4d0a8755"
     },
     "bin/runquotad": {
-      "sha256": "3cda18a6abb57a10880156c34a70aef909b3b1b38175ab70bae04fa174e95220"
+      "sha256": "4a69f509f2844ad24a4c6c017d1670e156f3d67dbb81e3982ca9c01e76310f7e"
     }
   },
   "repository": "metacraft-labs/runquota",
-  "sha256": "6422ae91cd6ca35cdcfc274e51aabc33a9f7df6b5366914190c5a56eb274544a",
-  "url": "https://github.com/metacraft-labs/runquota/releases/download/v0.1.0/runquota-0.1.0-darwin-aarch64.tar.gz",
-  "version": "0.1.0"
+  "sha256": "91e64656f8c055382ae1c57c1d8a5b2f99e08d7fb7a7cd888b68a12c88088564",
+  "url": "https://github.com/metacraft-labs/runquota/releases/download/v0.1.1/runquota-0.1.1-darwin-aarch64.tar.gz",
+  "version": "0.1.1"
 }
