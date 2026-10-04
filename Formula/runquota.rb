@@ -2,9 +2,9 @@
 class Runquota < Formula
   desc "Host-wide resource admission and execution observations"
   homepage "https://github.com/metacraft-labs/runquota"
-  url "https://github.com/metacraft-labs/runquota/releases/download/v0.1.1/runquota-0.1.1-darwin-aarch64.tar.gz"
-  version "0.1.1"
-  sha256 "91e64656f8c055382ae1c57c1d8a5b2f99e08d7fb7a7cd888b68a12c88088564"
+  url "https://github.com/metacraft-labs/runquota/releases/download/v0.1.2/runquota-0.1.2-darwin-aarch64.tar.gz"
+  version "0.1.2"
+  sha256 "9d6e623bdb176da0386ba1661081852c8b1ebb0bfaeb7941a277a558de14fbef"
   license "MIT"
 
   depends_on :macos
