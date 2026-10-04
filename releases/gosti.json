@@ -1,6 +1,6 @@
 {
   "architecture": "arm64",
-  "asset": "gosti-0.1.1-darwin-aarch64.tar.gz",
+  "asset": "gosti-0.1.2-darwin-aarch64.tar.gz",
   "payload": {
     "LICENSE": {
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
@@ -9,7 +9,7 @@
       "sha256": "7db761f3be35723dcb6a23be1455578f7d6c3843d174cdd4e9f17173ec05508c"
     },
     "bin/gosti": {
-      "sha256": "f7de393a6ba67a9d5865c929753fbe9639572c1788861729bfd4d32e61729252"
+      "sha256": "8c82eeef4dd2d69924b9599d3a4276de600e3899d7371fad0360978c5f3a0174"
     },
     "bin/vm-harness": {
       "symlink": "gosti"
@@ -132,7 +132,7 @@
       "sha256": "fcf051c82c2c9ff21d8702faa6138079c5a42f2e168b07eef0596ff46b7cbae3"
     },
     "share/vm-harness/guest-recipes/windows-x64-base/build-golden-hyperv.ps1": {
-      "sha256": "9a8f2f24a250c54862280232c186ddada647b54919eec6bec255a56a0e3fb408"
+      "sha256": "b4970b788ffa06c9dcfb20c0f250168309f6230400678770af96b3e583188e80"
     },
     "share/vm-harness/guest-recipes/windows-x64-base/build-hyperv-runner-golden.ps1": {
       "sha256": "67f065c6eea2d4cb9030723851ecebb964bec4deced1ef3040367d6bb8dce5f7"
@@ -175,7 +175,7 @@
     }
   },
   "repository": "metacraft-labs/gosti",
-  "sha256": "615b186037a5675bc894d3d8c87eed249d99197ae740bb9d6f14b49c9c746920",
-  "url": "https://github.com/metacraft-labs/gosti/releases/download/v0.1.1/gosti-0.1.1-darwin-aarch64.tar.gz",
-  "version": "0.1.1"
+  "sha256": "7fcb6c4ff67fd9dbf2b3eec65da9de6719e10c4ae7b179fe20487ccf5fc3d27c",
+  "url": "https://github.com/metacraft-labs/gosti/releases/download/v0.1.2/gosti-0.1.2-darwin-aarch64.tar.gz",
+  "version": "0.1.2"
 }
