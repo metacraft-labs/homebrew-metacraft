@@ -2,9 +2,9 @@
 class IoMon < Formula
   desc "Capture filesystem and IPC dependencies of a command"
   homepage "https://github.com/metacraft-labs/io-mon"
-  url "https://github.com/metacraft-labs/io-mon/releases/download/v0.1.0/io-mon-0.1.0-darwin-aarch64.tar.gz"
-  version "0.1.0"
-  sha256 "e5b0f83c9ece93e520e0f27b964c1e9005f341a38ba4e56eb939c14f77295e16"
+  url "https://github.com/metacraft-labs/io-mon/releases/download/v0.1.1/io-mon-0.1.1-darwin-aarch64.tar.gz"
+  version "0.1.1"
+  sha256 "0f1fad97ee4f0e3185a762aac2a21e9fe6fbff007521c54774f54ad84ff31333"
   license "Apache-2.0"
 
   depends_on :macos
