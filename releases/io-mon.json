@@ -1,19 +1,19 @@
 {
   "architecture": "arm64",
-  "asset": "io-mon-0.1.0-darwin-aarch64.tar.gz",
+  "asset": "io-mon-0.1.1-darwin-aarch64.tar.gz",
   "payload": {
     "LICENSE": {
       "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
     },
     "bin/io-mon": {
-      "sha256": "cd736fb410bfec184410954a73431fc12b97bf051c89dd70b7af8a15ba391d89"
+      "sha256": "8d7aa3254e05f40cd6930131ac08ae85df51400bc98c9422f0d848d718427e34"
     },
     "lib/librepro_monitor_shim.dylib": {
-      "sha256": "5c938a000d06a3a66b82d12a8e3f44750913a1a710fd13bbbda359fccf531307"
+      "sha256": "f63d8f848720e3ed6b26fb39420fb5a805932b90804b9ed04c74ae1be2dc3d74"
     }
   },
   "repository": "metacraft-labs/io-mon",
-  "sha256": "e5b0f83c9ece93e520e0f27b964c1e9005f341a38ba4e56eb939c14f77295e16",
-  "url": "https://github.com/metacraft-labs/io-mon/releases/download/v0.1.0/io-mon-0.1.0-darwin-aarch64.tar.gz",
-  "version": "0.1.0"
+  "sha256": "0f1fad97ee4f0e3185a762aac2a21e9fe6fbff007521c54774f54ad84ff31333",
+  "url": "https://github.com/metacraft-labs/io-mon/releases/download/v0.1.1/io-mon-0.1.1-darwin-aarch64.tar.gz",
+  "version": "0.1.1"
 }
